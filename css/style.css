@@ -1,0 +1,445 @@
+body{
+    margin: 0px;
+    background-image: url(../img/5651992.png);
+    width: fit-content;
+    
+
+}
+
+/* START of Home PART */
+#home{
+    display: flex;
+    margin-top: -20px;
+    /* flex-wrap: wrap; */
+    flex-shrink: inherit;
+    height: 500px;
+    background:url("../img/home.jpeg");;
+}
+#home1{
+    padding-top: 150px;
+    padding-left: 20px;
+    margin-left: 60px;
+    color: white;
+    text-align: center;
+}
+#btn_fiver{
+    background-color: transparent;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border:2px solid grey;
+    border-radius: 20px;
+    
+}
+/* @keyframes btnfiver {
+    from {background-color: transparent;}
+  to {background-color: green;}
+} */
+#btn_fiver:hover{
+    /* background-color: green; */
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    width: 150px;
+    /* animation-name: btnfiver;
+    animation-duration: 4ms; */
+    border:2px solid orange;
+    border-radius: 20px;
+}
+#btn_upwork{
+    background-color: transparent;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border:2px solid grey;
+    border-radius: 20px;
+    
+}
+/* @keyframes btnupwork {
+    from {background-color: transparent;}
+  to {background-color: lightgreen;}
+} */
+#btn_upwork:hover{
+    /* background-color: green; */
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    width: 150px;
+    /* animation-name: btnupwork;
+    animation-duration: 4ms; */
+    border:2px solid orange;
+    border-radius: 20px;
+}
+#btn_link{
+    background-color: transparent;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border:2px solid grey;
+    border-radius: 20px;
+    
+}
+/* @keyframes btnlink {
+    from {background-color: transparent;}
+  to {background-color: blue;}
+} */
+#btn_link:hover{
+    /* background-color:blue ; */
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    width: 150px;
+    /* animation-name: btnlink;
+    animation-duration: 4ms; */
+    border:2px solid orange;
+    border-radius: 20px;
+}
+
+#home2{
+    position:relative;animation:animateleft 1.4s;
+   
+
+}
+#home2 img{
+    height: 350px;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border: 5px solid transparent ;
+    border-radius: 150px ;
+}
+@keyframes animateleft{
+    from{left:-300px;opacity:0;} 
+    to{left:0;opacity:1;}
+}
+
+#hi{
+    
+    position:relative;animation:animateleft1 1.4s;
+    
+}
+@keyframes animateleft1{
+    from{right:-300px;opacity:0;} 
+    to{right:0;opacity:1;}
+}
+
+/* End of Home PART */
+/* Start of About me Section */
+#aboutmain{
+    background-image: url(../img/about.jpeg);
+    
+
+}
+#about{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-shrink: inherit;
+
+    font-family: sans-serif;
+    /* background-image: url(../img/about.jpeg); */
+    height: 300px;
+    color: darkslategray;
+}
+#personalinfo{
+padding-left: 150px;
+
+}
+#basicinfo{
+    padding-left: 150px;
+    padding-top: 70px;
+    font-size: 25px;
+
+}
+#btn_downcv{
+    background-color: black;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    margin-left: 50px;
+    color: white;
+    border-radius: 5px;
+    
+}
+ /* @keyframes btndowncv {
+    from {background-color: transparent;}
+  to {background-color: orange;}
+}  */
+#btn_downcv:hover{
+    /* background-color:b; */
+    font-size: 25px;
+    height: 40px;
+    width: 200px;
+    animation-name: btndowncv;
+    animation-duration: 4ms;
+    border-left:5px solid orange;
+    border-right:5px solid orange;
+    
+    
+}
+#skills{
+    display: flex;
+    width: 100%;
+   font-family: sans-serif;
+   flex-shrink: inherit;
+
+   
+
+}
+#skill1{
+    width: 50%;
+    color: darkslategray;
+    padding-left: 150px;
+    /* background-image: url(../img/about.jpeg); */
+}
+#skill1 h1{
+    
+    color: rgb(243, 138, 0);
+   
+}
+#skill2{
+    width: 50%;
+    color: darkslategray;
+    padding-left: 10%;
+    /* background-image: url(../img/about.jpeg); */
+}
+#skill2 h1{
+    
+    color: rgb(243, 138, 0);
+   
+}
+progress[value] {
+    -webkit-appearance: none;
+   appearance: none;
+
+  width: 350px;
+  height: 20px;
+  
+  }
+  progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    width: 500px;
+  }
+  progress[value]::-webkit-progress-value {
+    background-image:
+         -webkit-linear-gradient(-45deg, 
+                                 transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                                 rgba(0,0, 0, .1) 66%, transparent 66%),
+         -webkit-linear-gradient(top, 
+                                 rgba(255, 255, 255, .25), 
+                                 rgba(0, 0, 0, .25)),
+         -webkit-linear-gradient(left, #09c, orange);
+         
+      border-radius: 10px; 
+      background-size: 35px 20px, 100% 100%, 100% 100%;
+  }
+  
+
+
+
+/* End of About me Section */
+#portfolio{
+    text-align: center;
+    font-family: sans-serif;
+    
+    height: 600px;
+    /* background-image: url(../img/portfolio.jpg); */
+    background-image: url(../img/5651992.png);
+}
+#portfolio h1{
+    text-decoration: none;
+    
+    border-radius: 5px;
+    text-align: center;
+    
+    color: #bbb;
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+#images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   justify-items: stretch;
+
+
+    margin: 40px;
+    text-decoration: none;
+    
+}
+#images img{
+    height: 250px;
+    width: 250px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+
+}
+#images img:hover{
+    height: 250px;
+    width: 250px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    /* animation-delay: 1.5ms; */
+    /* box-shadow: 5px 5px silver; */
+}
+/* contact us section */
+#contactus{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#cform label{
+    color: #bbb;
+}
+#cform input{
+    width: 250px;
+    height: 25px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border-left: 5px solid orange ;
+    border-right: 5px solid orange ;
+}
+#cform button{
+    width: 260px;
+    height: 40px;
+    background-color: black;
+    color: #bbb;
+ 
+    font-family: sans-serif;
+    border-radius: 5px;
+    
+}
+#cform button:hover{
+    width: 260px;
+    height: 40px;
+    background-color: black;
+    color: #bbb;
+    font-family: sans-serif;
+    border-radius: 5px;
+    font-size: 25px;
+    border-left: 5px solid orange ;
+    border-right: 5px solid orange ;
+}
+#cform textarea{
+    width: 250px;
+    
+    font-family: sans-serif;
+    border-radius: 5px;
+    border-left: 5px solid orange ;
+    border-right: 5px solid orange ;
+}
+
+#cform {
+    margin-left: 125px;
+}
+#cform h1{
+    text-decoration: none;
+    
+    border-radius: 5px;
+    text-align: center;
+    
+    color: #bbb;
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+    background-color: black;
+}
+#cfrom1{
+    width: 50%;
+}
+#newsletter{
+    padding-top: 80px;
+    margin-left: 100px;
+    text-align: center;
+    
+}
+#newsletter h1{
+    text-decoration: none;
+    
+    border-radius: 5px;
+    text-align: center;
+    
+    color: #bbb;
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+    background-color: black;
+}
+#newsletter label{
+    text-align: center;
+    color: #bbb;
+}
+#newsletter input{
+    
+    width: 250px;
+    height: 25px;
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+    border-radius: 5px;
+
+    
+}
+#newsletter button{
+    width: 260px;
+    height: 40px;
+    background-color: black;
+    color: #bbb;
+    font-family: sans-serif;
+    border-radius: 5px;
+    
+}
+#newsletter button:hover{
+    width: 260px;
+    height: 40px;
+    background-color: black;
+    color: #bbb;
+    font-family: sans-serif;
+    border-radius: 5px;
+    font-size: 25px;
+    border-left: 5px solid orange ;
+    border-right: 5px solid orange ;
+}
+#address45 h1{
+    text-decoration: none;
+    margin-left: 100px;
+
+    border-radius: 5px;
+    text-align: center;
+    
+    color: #bbb;
+    border-left: 5px solid orange;
+    border-right: 5px solid orange;
+    background-color: black;
+}
+#address45 img{
+    width: 350px;
+    margin-left: 100px;
+    border-radius: 10px;
+
+    /* padding-top: 50px; */
+}
+#address45 address{
+   
+    margin-left: 100px;
+   color: #bbb;
+   padding-top: 20px;
+   font-size: 10px;
+   font-family: sans-serif;
+    
+   
+}
